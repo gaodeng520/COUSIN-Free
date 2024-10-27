@@ -9,6 +9,7 @@ PURPLE='\033[1;35m'
 LBLUE='\033[1;36m'
 }
 
+mkdir /sdcard/Download/COUSIN_file/PAK
 rm -rf /sdcard/Download/COUSIN_PAK
 
 clear
