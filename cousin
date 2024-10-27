@@ -3,11 +3,11 @@ cd $HOME/COUSIN-Free
 
 rm -rf setup
 
-mkdir /sdcard/Download/COUSIN_PAK
+mkdir /sdcard/Download/COUSIN_file/PAK
 
 #permission excute
-chmod +x setupv2
-chmod +x /data/user/0/com.termux/files/home/COUSIN-Free/unpak
-chmod +x /data/user/0/com.termux/files/home/COUSIN-Free/repak
+chmod +x unpackpak
+chmod +x unpak
+chmod +x repak
 #run
-./setupv2
+./CN

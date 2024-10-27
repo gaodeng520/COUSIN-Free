@@ -9,7 +9,7 @@ PURPLE='\033[1;35m'
 LBLUE='\033[1;36m'
 }
 
-
+rm -rf /sdcard/Download/COUSIN_PAK
 
 clear
 Coloring
@@ -20,9 +20,9 @@ chmod +x $HOME/COUSIN-Free/cousin
 mv $HOME/COUSIN-Free/cousin $PREFIX/bin
 fi
 function redirect {
-if [ -f $HOME/COUSIN-Free/setupv2 ]; then
-chmod +x setupv2
-./setupv2
+if [ -f $HOME/COUSIN-Free/CN ]; then
+chmod +x CN
+./CN
 fi
 }
 
